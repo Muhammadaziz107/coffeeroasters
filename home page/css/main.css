@@ -1,0 +1,555 @@
+/* fraunces-regular - latin */
+@font-face {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/fraunces-v10-latin-regular.eot');
+     /* IE9 Compat Modes */
+     src: local(''),
+          url('../fonts/fraunces-v10-latin-regular.eot?#iefix') format('embedded-opentype'),
+          /* IE6-IE8 */
+          url('../fonts/fraunces-v10-latin-regular.woff2') format('woff2'),
+          /* Super Modern Browsers */
+          url('../fonts/fraunces-v10-latin-regular.woff') format('woff'),
+          /* Modern Browsers */
+          url('../fonts/fraunces-v10-latin-regular.ttf') format('truetype'),
+          /* Safari, Android, iOS */
+          url('../fonts/fraunces-v10-latin-regular.svg#Fraunces') format('svg');
+     /* Legacy iOS */
+}
+
+/* fraunces-900 - latin */
+@font-face {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     src: url('../fonts/fraunces-v10-latin-900.eot');
+     /* IE9 Compat Modes */
+     src: local(''),
+          url('../fonts/fraunces-v10-latin-900.eot?#iefix') format('embedded-opentype'),
+          /* IE6-IE8 */
+          url('../fonts/fraunces-v10-latin-900.woff2') format('woff2'),
+          /* Super Modern Browsers */
+          url('../fonts/fraunces-v10-latin-900.woff') format('woff'),
+          /* Modern Browsers */
+          url('../fonts/fraunces-v10-latin-900.ttf') format('truetype'),
+          /* Safari, Android, iOS */
+          url('../fonts/fraunces-v10-latin-900.svg#Fraunces') format('svg');
+     /* Legacy iOS */
+}
+
+/* barlow-regular - latin */
+@font-face {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: 400;
+     src: url('../fonts/barlow-v5-latin-regular.eot');
+     /* IE9 Compat Modes */
+     src: local(''),
+          url('../fonts/barlow-v5-latin-regular.eot?#iefix') format('embedded-opentype'),
+          /* IE6-IE8 */
+          url('../fonts/barlow-v5-latin-regular.woff2') format('woff2'),
+          /* Super Modern Browsers */
+          url('../fonts/barlow-v5-latin-regular.woff') format('woff'),
+          /* Modern Browsers */
+          url('../fonts/barlow-v5-latin-regular.ttf') format('truetype'),
+          /* Safari, Android, iOS */
+          url('../fonts/barlow-v5-latin-regular.svg#Barlow') format('svg');
+     /* Legacy iOS */
+}
+
+/* barlow-700 - latin */
+@font-face {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: 700;
+     src: url('../fonts/barlow-v5-latin-700.eot');
+     /* IE9 Compat Modes */
+     src: local(''),
+          url('../fonts/barlow-v5-latin-700.eot?#iefix') format('embedded-opentype'),
+          /* IE6-IE8 */
+          url('../fonts/barlow-v5-latin-700.woff2') format('woff2'),
+          /* Super Modern Browsers */
+          url('../fonts/barlow-v5-latin-700.woff') format('woff'),
+          /* Modern Browsers */
+          url('../fonts/barlow-v5-latin-700.ttf') format('truetype'),
+          /* Safari, Android, iOS */
+          url('../fonts/barlow-v5-latin-700.svg#Barlow') format('svg');
+     /* Legacy iOS */
+}
+
+html {
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+     margin: 0;
+     padding: 0;
+     font-family: 'Barlow', 'Fraunces', sans-serif, serif;
+}
+
+/* ==========================SITE-HEADER-START====================================== */
+
+.site-header .container {
+     display: flex;
+     align-items: center;
+     margin-left: 80px;
+     justify-content: space-between;
+     margin-right: 80px;
+}
+
+.site-header .div-one {
+     padding: 44px;
+}
+
+.site-header .menu {
+     display: flex;
+}
+
+
+.site-header .list-item {
+     margin: 0;
+     padding: 49px 16px;
+     list-style-type: none;
+}
+
+.site-header .list-link {
+     color: #83888F;
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     letter-spacing: 0.923077px;
+     text-transform: uppercase;
+     text-decoration: none;
+}
+
+
+/* =========================================SITE-MAIN-START============================================ */
+
+/* ===================intro-section-start====================== */
+.site-main .intro-section .container {
+     width: 1280px;
+     height: 600px;
+     background-image: url(../images/Bitmap.png);
+     background-repeat: no-repeat;
+     border-radius: 8px;
+     margin: 0 auto;
+}
+
+.site-main .intro-section .intro-div {
+     width: 493px;
+     margin-left: 85px;
+}
+
+.intro-section .intro-div h1 {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 72px;
+     line-height: 72px;
+     color: #FEFCF7;
+     margin-bottom: 32px;
+}
+
+.intro-section .intro-div p {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #FEFCF7;
+     mix-blend-mode: normal;
+     opacity: 0.8;
+     margin-bottom: 56px;
+}
+
+.intro-section .intro-div .intro-link {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: center;
+     color: #FEFCF7;
+     text-decoration: none;
+     padding: 15px 30px;
+     background-color: #0E8784;
+     border-radius: 6px;
+}
+
+.intro-section .intro-div .intro-link:hover {
+     background-color: #66D2CF;
+}
+
+.intro-section .intro-div .intro-link:active {
+     background-color: #E2DEDB;
+}
+
+/* ================section-one-start================ */
+.section-one .visually-hidden {
+     position: absolute;
+     white-space: nowrap;
+     width: 1px;
+     height: 1px;
+     overflow: hidden;
+     border: 0;
+     padding: 0;
+     clip: rect(0 0 0 0);
+     clip-path: inset(50%);
+     margin: -1px;
+}
+
+.section-one .container {
+     margin-left: 165px;
+     margin-right: 165px;
+     padding-top: 220px;
+}
+
+.section-one .collection-div {
+     display: flex;
+     justify-content: center;
+     background-image: url(../images/collection.svg);
+     background-repeat: no-repeat;
+     background-position: center -110px;
+}
+
+.section-one .one {
+     width: 255px;
+}
+
+.section-one .two {
+     width: 255px;
+}
+
+.section-one .three {
+     width: 255px;
+}
+
+.section-one .four {
+     width: 255px;
+}
+
+.section-one h4 {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 24px;
+     line-height: 32px;
+     text-align: center;
+     color: #333D4B;
+     text-align: center;
+     padding: 12px;
+     margin-top: 70px;
+}
+
+.section-one p {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: center;
+     color: #333D4B;
+     padding: 12px;
+}
+
+/* ==============section-two-start============== */
+
+.section-two .container {
+     margin-left: 80px;
+     margin-right: 80px;
+     padding-top: 200px;
+     justify-content: center;
+}
+
+.section-two .choose-div {
+     height: 577px;
+     background-color: #2C343E;
+     border-radius: 10px;
+}
+
+.section-two .choose-div .one {
+     width: 540px;
+     margin: 0 auto;
+}
+
+.section-two .choose-div .one h2 {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 40px;
+     line-height: 48px;
+     text-align: center;
+     color: #FEFCF7;
+     text-align: center;
+     padding-top: 100px;
+     padding-bottom: 32px;
+}
+
+.section-two .choose-div .one p {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: center;
+     color: #FEFCF7;
+     mix-blend-mode: normal;
+     opacity: 0.8;
+     text-align: center;
+}
+
+.section-two .flex-div {
+     display: flex;
+     justify-content: center;
+     margin-top: -185px;
+     margin-left: 85px;
+     margin-right: 85px;
+}
+
+.section-two .flex-div .two {
+     width: 350px;
+     height: 382px;
+     background-color: #0E8784;
+     border-radius: 8px;
+     margin-right: 30px;
+}
+
+.section-two .flex-div img {
+     margin: 50px 140px;
+}
+
+.section-two .flex-div .four img {
+     margin-top: 70px;
+}
+
+.section-two .flex-div .three {
+     width: 350px;
+     height: 382px;
+     background-color: #0E8784;
+     border-radius: 8px;
+}
+
+.section-two .flex-div .four {
+     width: 350px;
+     height: 382px;
+     background-color: #0E8784;
+     border-radius: 8px;
+     margin-left: 30px;
+}
+
+.section-two .flex-div .four h4 {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 24px;
+     line-height: 32px;
+     text-align: center;
+     color: #FEFCF7;
+     margin-bottom: 16px;
+     margin-top: 1px;
+}
+
+.section-two .flex-div h4 {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 24px;
+     line-height: 32px;
+     text-align: center;
+     color: #FEFCF7;
+     margin-bottom: 16px;
+}
+
+.section-two .flex-div p {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     text-align: center;
+     color: #FEFCF7;
+     padding: 12px 47px;
+}
+
+
+/* ======================section-three======================== */
+
+.section-work .intro-h {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 24px;
+     line-height: 32px;
+     color: #83888F;
+     margin-left: 165px;
+     margin-top: 200px;
+     margin-bottom: 100px;
+}
+
+.section-work .div-item {
+     display: flex;
+     margin-left: 70px;
+     margin-bottom: 64px;
+}
+
+.section-work .div-item-one {
+     width: 285px;
+     margin: 0 auto;
+}
+
+.section-work .div-item-one h3 {
+     width: 255px;
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 32px;
+     line-height: 36px;
+     color: #333D4B;
+}
+
+.section-work .div-item-one p {
+     width: 285px;
+     height: 138px;
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #333D4B;
+}
+
+
+.section-work .div-item-two {
+     width: 285px;
+     margin: 0 auto;
+}
+
+.section-work .div-item-two h3 {
+     width: 255px;
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 32px;
+     line-height: 36px;
+     color: #333D4B;
+}
+
+.section-work .div-item-two p {
+     width: 285px;
+     height: 138px;
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #333D4B;
+}
+
+.section-work .div-item-three {
+     width: 285px;
+     margin: 0 auto;
+}
+
+.section-work .div-item-three h3 {
+     width: 255px;
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 32px;
+     line-height: 36px;
+     color: #333D4B;
+}
+
+.section-work .div-item-three p {
+     width: 285px;
+     height: 138px;
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: normal;
+     font-size: 16px;
+     line-height: 26px;
+     color: #333D4B;
+}
+
+.section-work .intro-link {
+     font-family: 'Fraunces';
+     font-style: normal;
+     font-weight: 900;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: center;
+     color: #FEFCF7;
+     text-decoration: none;
+     padding: 15px 30px;
+     margin-left: 165px;
+     margin-bottom: 200px;
+     background-color: #0E8784;
+     border-radius: 6px;
+}
+
+.section-work .intro-link:hover {
+     background-color: #66D2CF;
+}
+
+.section-work .intro-link:active {
+     background-color: #E2DEDB;
+}
+
+/* ============================SITE-FOOTER-START============================================= */
+
+.site-footer .container {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     height: 120px;
+     margin-right: 80px;
+     margin-left: 80px;
+     margin-top: 200px;
+     margin-bottom: 88px;
+     background-color: #2C343E;
+}
+
+
+.site-footer .div-one {
+     margin-left: 85px;
+}
+
+.site-footer .div-two{
+     margin-left: -103px;
+}
+
+.site-footer .div-two .footer-menu {
+     display: flex;
+}
+
+.site-footer .footer-menu .footer-list {
+     margin: 0;
+     padding-right: 33px;
+     list-style-type: none;
+}
+
+.site-footer .footer-menu .footer-link {
+     font-family: 'Barlow';
+     font-style: normal;
+     font-weight: bold;
+     font-size: 12px;
+     line-height: 15px;
+     letter-spacing: 0.923077px;
+     text-transform: uppercase;
+     color: #83888F;
+     text-decoration: none;
+}
+
+.site-footer .div-three{
+     margin-right: 85px;
+}
+
+.site-footer .div-three img{
+     margin-left: 24px;
+}
